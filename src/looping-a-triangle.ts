@@ -13,8 +13,8 @@ Write a loop that makes seven calls to console.log to output the following trian
 
 It may be useful to know that you can find the length of a string by writing .length after it.
 
-    let abc = "abc";
-    console.log(abc.length);
+    let abc = "abc"
+    console.log(abc.length)
     // → 3
 */
 
@@ -24,9 +24,11 @@ It may be useful to know that you can find the length of a string by writing .le
  *
  * @param {number} lines - The number of lines in the triangle.
  */
-export const loopingATriangle = (lines: number = 7) => {
+const loopingATriangle = (lines: number = 7) => {
   Array.from({ length: lines }, (_, i) => {
-    const str = '#'.repeat(i + 1);
-    console.log(str);
-  });
+    const str = '#'.repeat(i + 1)
+    console.log(str)
+  })
 }
+
+export default loopingATriangle
