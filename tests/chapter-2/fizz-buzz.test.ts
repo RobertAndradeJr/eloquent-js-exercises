@@ -1,4 +1,4 @@
-import FizzBuzz from '../src/fizz-buzz'
+import FizzBuzz from '../../src/chapter-2/fizz-buzz'
 
 describe('FizzBuzz', () => {
   let spy: jest.SpyInstance

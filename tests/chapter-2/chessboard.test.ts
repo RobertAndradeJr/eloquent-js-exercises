@@ -1,4 +1,4 @@
-import chessboard from '../src/chessboard'
+import chessboard from '../../src/chapter-2/chessboard'
 
 describe('tests chessboard function', () => {
   it('should create a 2x2 chessboard', () => {

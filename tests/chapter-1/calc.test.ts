@@ -1,4 +1,4 @@
-import { sum } from "../src/calc"
+import { sum } from '../../src/chapter-1/calc'
 
 describe("test add function", () => {
   it("should add 1 + 2 to equal 3", () => {

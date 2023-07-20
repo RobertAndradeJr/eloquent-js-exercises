@@ -1,4 +1,4 @@
-import loopingATriangle from '../src/looping-a-triangle'
+import loopingATriangle from '../../src/chapter-2/looping-a-triangle'
 
 describe("loopingATriangle function", () => {
   let spy: jest.SpyInstance;
